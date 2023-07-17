@@ -10,7 +10,7 @@ const Home = ({ isLoggedIn, token, user, setToken, setIsLoggedIn }) => {
     <div>
       {isLoggedIn ? (
         <div>
-          <h1>Welcome to UnrealBoosters!</h1>
+          <h1>Welcome to!</h1>
           {user && (
             <div>
               Welcome,{user.username}{" "}

@@ -60,7 +60,7 @@ const App = () => {
         <nav className="navbar">
           <ul className="nav-item nav-list">
             <li className="nav-title">
-              <Link to="/">Unreal Boosters</Link>
+              <Link to="/">☆ Unreal Boosters ☆ </Link>
             </li>
             <li className="nav-item">
               {token && <p>{token.token}</p>}
